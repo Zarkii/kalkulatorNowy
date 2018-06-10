@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <Button fx:id="button1" layoutX="14.0" layoutY="58.0" mnemonicParsing="false" onAction="#Przycisk1" text="1" />
+            <Button fx:id="button2" layoutX="14.0" layoutY="100.0" mnemonicParsing="false" onAction="#Przycisk2" text="2" />
+            <TextField fx:id="pole" layoutX="26.0" layoutY="14.0" />
+            <Button layoutX="74.0" layoutY="58.0" mnemonicParsing="false" text="dodać" />
+            <Button layoutX="74.0" layoutY="113.0" mnemonicParsing="false" text="jest równe" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
